@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """Hello! 🙋\n\nThis is a simple Telegram All-In-One Bot. Click /help button to Know More What Can I Do? \n\n@TheTeleRoid"""
+    START_TEXT = """Hey! This is a simple Telegram All-In-One Bot that has so many function. Click /help button to Know How To Use Me.\n Made with ❤ By @TeleRoidGroup"""
     RENAME_403_ERR = "<b>Sorry. You Are Not Permitted To Rename This File.\nAsk In [Support Group](https://t.me/TeleRoid14)</b>"
     ABS_TEXT = " <b>Please Don't Be Selfish.</b>"
     UPGRADE_TEXT = "<b>This Bot Is Free To Use If U R My  Friend......\n\n@TheTeleRoid</b>"
@@ -24,36 +24,48 @@ URL | filename | username | password</b>"""
     NO_VOID_FORMAT_FOUND = "Can You Check The Url? <b>I Am Unable To Detect Video Format From UrL.</b> If You Think This Could Be A Bug Please Report On https://t.me/TeleRoid14"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     CURENT_PLAN_DETAILS = """Current plan details
---------
-Telegram ID: <code>{}</code>
-Plan name: 75GB Per Month
-Expires on: 10/12/2021
---------"""
-    HELP_USER = """<b>There Are Multiple Things I Can Do:</b>\n\n <b>All Supported Video Formats of https://rg3.github.io/youtube-dl/supportedsites.html</b>
+-----------------------------
+👤Telegram ID: <code>{}</code>
 
-📌 <b>Upload as file from any HTTP link</b>
+📝Plan name: 75GB Per Month
 
-📌 <b>Convert To Streamable Video, any Telegram media.\nReply /converttovideo to Any Doc File</b>
+🚸Expires on: 10/12/2021
 
-📌 <b>ReName Telegram files, with custom thumbnail support.\nReply /rename To File</b>
+😎If You need Private Bot Please Ch3ck @PayForBotz.
+-----------------------------"""
+    HELP_USER = """<b>There Are Multiple Things I Can Do:</b>\n\n <b>All Supported Video Formats of [YTDL](https://rg3.github.io/youtube-dl/supportedsites.html)</b>
 
-📌 <b>Get High Speed Direct Download Link Of Any Telegram File.\nReply /getlink To File</b>
---------
+☞  <b>Upload as file from any HTTP link</b>
+
+☞  <b>Convert To Streamable Video, any Telegram media.\nReply /converttovideo to Any Doc File</b>
+
+☞  <b>ReName Telegram files, with custom thumbnail support.\nReply /rename To File</b>
+
+☞  <b>Get High Speed Direct Download Link Of Any Telegram File.\nReply /getlink To File</b>
+-----------------------------
 
 Send /me To Know Your Current Plan Details"""
     REPLY_TO_DOC_GET_LINK = "<b>Reply to a Telegram media to get High Speed Direct Download Link.</b>"
     REPLY_TO_DOC_FOR_C2V = "<b>Reply to a Telegram Media To Convert.\n@TheTeleRoid</b>"
     REPLY_TO_DOC_FOR_SCSS = "<b>Reply to a Telegram Media To Get Screenshots.\n@TheTeleRoid</b>"
-    SOURCE = """<b>Hello!,</b>
+    SOURCE = """<b>Hello! You Want to Know More About Me</b>
 
 <b>○ My Name : <i>TeleRoid AnyDLBot</i></b>
-<b>○ Creator : <a href='https://telegram.dog/Kirodewal'>This Person</a></b>
+
+<b>○ Creator : <a href='https://telegram.dog/TheTeleRoid'>This Person</a></b>
+
 <b>○ Credits : Everyone In This Journey</b>
+
 <b>○ Language : Python 3.9</b>
+
 <b>○ Library : Pyrogram Asyncio</b>
+
 <b>○ Cloned From : AnyDLBot [Spechide]</b>
+
 <b>○ Source Code :  <a href="https://github.com/PredatorHackerzZ/AnyDLBot-2">𝗖𝗹𝗶𝗰𝗸 𝗛𝗲𝗿𝗲</a></b>
+
 <b>○ Server : <a href='https.heroku.com'>Heroku</a></b>
+
 <b>○ Build Status : Beta v1</b>"""
     REPLY_TO_DOC_FOR_RENAME_FILE = "<b>Reply to a Telegram Media To /rename With Custom Thumbnail Support.Or Ask In Support Group.</b>"
     AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days."
